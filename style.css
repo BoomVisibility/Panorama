@@ -153,11 +153,13 @@ strong, b {
 
 i, em {
 	font-family: 'nobileitalic', 'nobile', arial, sans-serif;
+	font-style: normal;
 }
 
 strong em, em strong, i b, b i, strong i, i strong, em b, b em{
 	font-family: 'nobilebold_italic', 'nobile', arial, sans-serif;
 	font-weight: normal;
+	font-style: normal;
 }
 
 /* Links */
