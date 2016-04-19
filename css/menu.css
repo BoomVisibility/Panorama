@@ -5,7 +5,7 @@
     }
  
 
- @media (min-width: 1000px) {
+ @media (min-width: 1025px) {
 
 
 div.navigation-container{
@@ -462,13 +462,13 @@ header.global .navigation-primary .slicknav_nav li .sub-menu a{
 	}
 }
 
-@media (min-width:1000px) and (max-width: 1100px) {
+@media (min-width:1025px) and (max-width: 1100px) {
 	.navigation-container .navigation-primary li a {
 		padding: 40px 9px;
 	}
  }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1025px) {
 	.js #menu-primary-menu {
 		display:none;		
 	}
