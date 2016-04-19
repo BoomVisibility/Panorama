@@ -37,7 +37,8 @@ get_header(); ?>
 			}
 			?> 
 			<?php else : ?>
-			<div id="primary" class="container page-content" role="main">
+			<div id="primary" class="page-content" role="main">
+				<div id="content" class="container" role="main">
 				<article id="post-0" class="post no-results not-found">
 					<div class="entry-content">
 						<header class="entry-header">
