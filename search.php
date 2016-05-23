@@ -17,8 +17,8 @@ get_header(); ?>
 					<?php printf( __( 'Search Results for: %s', 'twentytwelve' ), '<span>' . get_search_query() . '</span>' ); ?>
 				</h1>
 			</header>
-			<?php if(function_exists('wp_paginate')) {
-				wp_paginate();
+			<?php if(function_exists('wpbeginner_numeric_posts_nav')) {
+				wpbeginner_numeric_posts_nav();
 				}
 				else {
 				twentytwelve_content_nav( 'nav-above' );
@@ -29,8 +29,8 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php get_template_part( 'content', get_post_format() ); ?>
 			<?php endwhile; ?>
-			<?php if(function_exists('wp_paginate')) {
-				wp_paginate();
+			<?php if(function_exists('wpbeginner_numeric_posts_nav')) {
+				wpbeginner_numeric_posts_nav();
 			}
 			else {
 			twentytwelve_content_nav( 'nav-below' );
