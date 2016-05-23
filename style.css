@@ -1703,3 +1703,41 @@ body header.smaller  #schedule .half {
     padding: 1% 0;
 	}
 }
+
+/* Numeric Posts */
+
+.navigation {
+    margin-bottom: 20px;
+}
+
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {
+	color: #fff;
+	text-decoration:none;
+}
+
+.navigation li {
+	display: inline;
+}
+
+body .navigation li:before {
+	display: none;
+}
+
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {
+	background-color: #41b1e3;
+	border-radius: 3px;
+	cursor: pointer;
+	padding: 12px;
+	padding: 0.75rem;
+}
+
+.navigation li a:hover,
+.navigation li.active a {
+	background-color: #064F90;
+}
