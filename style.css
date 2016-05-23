@@ -758,7 +758,7 @@ header .container {
     width: 47.5%;
 	}	    
 
-.blog #primary, .category #primary, .search #primary, .single-post #primary, .page-template-default #primary, .page-template-reviews-page #primary, .post-type-archive-faq #primary, .single-faq #primary{
+.blog #primary, .category #primary, .search #primary, .single-post #primary, .page-template-default #primary, .page-template-reviews-page #primary, .page-template-faq-page #primary, .single-faq #primary{
     background-image: url(images/side-divider.png);
 	background-position: right top;
 	background-repeat: no-repeat;
