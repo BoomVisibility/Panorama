@@ -1094,6 +1094,19 @@ body .gform_wrapper .top_label .gfield_label{
 	margin-bottom: 0;
 }
 
+body .entry-content .gform_wrapper li {
+	margin: 0;
+}
+
+body .gform_wrapper ul li.field_description_below div.ginput_container_checkbox, body .gform_wrapper ul li.field_description_below div.ginput_container_radio {
+	margin-top: 0 !important;
+}
+
+body .gform_wrapper .top_label li.gfield.gf_left_half:before, body .gform_wrapper .top_label li.gfield.gf_right_half:after {
+	display: none;
+}
+
+
 footer .gform_wrapper ul.gform_fields{
 	width: 200px;
 }
