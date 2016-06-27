@@ -1106,6 +1106,19 @@ body .gform_wrapper .top_label li.gfield.gf_left_half:before, body .gform_wrappe
 	display: none;
 }
 
+body .gform_wrapper .datepicker {
+    width: 6.75em !important;
+}
+
+body .gform_wrapper .gfield_checkbox li label, body .gform_wrapper .gfield_radio li label {
+    font-size: 16px;
+    max-width: 100%;
+}
+
+body .gform_wrapper #field_1_10 .gfield_checkbox li label {
+    padding: 6px 15px;
+}
+
 
 footer .gform_wrapper ul.gform_fields{
 	width: 200px;
