@@ -1031,6 +1031,12 @@ footer .one_fourth:nth-child(3) img {
     margin-right: 5px;
 }
 
+footer .one_fourth:nth-child(1) .footer-widget {
+	position: relative;
+    	top: 0%;
+    	transform: translateY(50%);
+    }
+
 .facebook-image, .facebook-text {
 	display: inline-block;
 	float: left;
