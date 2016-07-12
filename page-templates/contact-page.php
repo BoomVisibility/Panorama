@@ -17,7 +17,7 @@
 get_header(); ?>
 <div class="header-divider"></div>
 <div class="wrapper"><?php if ( function_exists('yoast_breadcrumb') ) {yoast_breadcrumb('<p id="breadcrumbs">','</p>');} ?>		<header class="entry-header">			<h1 class="page-title"><?php the_title(); ?></h1>			<h2 class="page-subheading"><?php the_field('subheading'); ?></h2>			<span class="divider left blue"></span>		</header>
-	<div id="primary" class="contact-content">
+	<div id="primary" class="page-content">
 		<div id="content" class="container" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php get_template_part( 'content', 'page' ); ?>
