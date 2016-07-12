@@ -26,7 +26,7 @@ get_header(); ?>
 	</div><!-- #primary -->
 	
 	<?php if ( is_active_sidebar( 'sidebar-12' ) ) : ?>
-	<div id="secondary" class="contact-widget-area" role="complementary">
+	<div id="secondary" class="widget-area" role="complementary">
 	<?php dynamic_sidebar( 'sidebar-12' ); ?>				
 	</div><!-- #secondary -->			
 	<?php endif; ?>	</div>
