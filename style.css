@@ -1524,6 +1524,10 @@ input[type=text].directions {
 	width: 100%;
 	max-width: 450px;
 	}
+	
+input.directions {
+	margin: 5px 0;
+	}
 
 /* =slider styles
 
