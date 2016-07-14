@@ -1116,6 +1116,8 @@ body .gform_wrapper .datepicker {
     width: 6.75em !important;
 }
 
+.ui-datepicker {margin: 0 auto !important;}
+
 body .gform_wrapper .gfield_checkbox li label, body .gform_wrapper .gfield_radio li label {
     font-size: 16px;
     max-width: 100%;
