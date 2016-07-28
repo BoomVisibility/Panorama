@@ -130,6 +130,33 @@ Organization
 
 }
 
+/* kameron-regular - latin */
+@font-face {
+  font-family: 'Kameron';
+  font-style: normal;
+  font-weight: 400;
+  src: url('css/fonts/kameron-v7-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Kameron'),
+       url('css/fonts/kameron-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('css/fonts/kameron-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('css/fonts/kameron-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('css/fonts/kameron-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('css/fonts/kameron-v7-latin-regular.svg#Kameron') format('svg'); /* Legacy iOS */
+}
+/* kameron-700 - latin */
+@font-face {
+  font-family: 'Kameron';
+  font-style: normal;
+  font-weight: 700;
+  src: url('css/fonts/kameron-v7-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Kameron Bold'), local('Kameron-Bold'),
+       url('css/fonts/kameron-v7-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('css/fonts/kameron-v7-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('css/fonts/kameron-v7-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('css/fonts/kameron-v7-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('css/fonts/kameron-v7-latin-700.svg#Kameron') format('svg'); /* Legacy iOS */
+}
+
 
 /* 1=Content Styles
 
