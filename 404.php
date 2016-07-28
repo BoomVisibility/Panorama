@@ -28,7 +28,5 @@ get_header(); ?>
 	</div><!-- #primary -->
 	<?php get_sidebar(); ?>
 </div>
-<div class="wrapper">	
 <?php if ( is_active_sidebar( 'sidebar-10' ) ) : ?><?php dynamic_sidebar( 'sidebar-10' ); ?><?php endif; ?>
-</div>
 <?php get_footer(); ?>
