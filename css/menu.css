@@ -76,6 +76,7 @@ ul.sub-menu li.current-menu-item {
 	
 .navigation-container .navigation-primary .sub-menu li:hover, .navigation-container .navigation-primary .sub-menu li a:hover {
 	background: transparent;
+	filter: none;
 }
         
 .navigation-container .navigation-primary .sub-menu li a {
