@@ -64,6 +64,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74daff', end
 		
 ul.sub-menu li.current-menu-item {
 	background: transparent;
+	filter: none;
 }
 		
 .navigation-container .navigation-primary li:hover a {
