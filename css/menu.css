@@ -214,7 +214,7 @@ header.global .navigation-primary .slicknav_nav li a {
 	 
 .slicknav_menu .slicknav_icon {
     float: left;
-    margin: 0.388em 0 0 0.438em; }
+    margin: 0.25em 0 0 0.438em; }
   
 .slicknav_menu .slicknav_no-text {
     margin: 0; }
@@ -251,7 +251,7 @@ header.global .navigation-primary .slicknav_nav li a {
 .slicknav_nav .slicknav_arrow {
 	font-size: 1.5em;
 	margin: -0.1em 0 0 0.4em;
-	padding: 0px 10px 4px 10px;
+	padding: 0px 7px;
 	background-color: rgba(0,0,0,0.3);
 	float: right;
 }
