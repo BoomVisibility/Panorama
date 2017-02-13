@@ -228,8 +228,9 @@ h1 {
 	font-size: 55px;
 	line-height: 1;
 	font-weight: 300; }
-  
 
+h1.page-title {font-size: 45px;}
+  
 h1.bordered {
     border: 3px solid;
     padding: 20px 30px;
@@ -747,13 +748,9 @@ header .container {
     margin: 0 auto;
     overflow: hidden; }
 
-.site-content {
-    float: left;
-    width: 75%; }
-
-.page-content {
-    float: left;
-    width: 70%;
+.page-content, .site-content {
+    	float: left;
+	width: 70%;
 	padding-right: 5%;
     }
 
