@@ -460,6 +460,7 @@ a.comment-edit-link:hover {
   /* Form fields, general styles first */
 button,
 input,
+select,
 textarea {
   font-family: inherit;
   padding: 6px;
@@ -469,6 +470,7 @@ textarea {
 button,
 input {
   line-height: normal; }
+select {height: 27px;}
 textarea {
   font-size: 100%;
   overflow: auto;
