@@ -28,7 +28,6 @@ nav#site-navigation {
 .navigation-container .navigation-primary li {
 	display: inline-block;
 	position: relative;
-	margin-left: -4px;
 }
       
       
@@ -43,7 +42,7 @@ nav#site-navigation {
 	text-transform: uppercase;
 	font-family: 'nobilemedium';
 	color: #084e8f;
-	padding: 40px 17px;
+	padding: 40px 14px;
 	border-left: 1px solid #fff;
 	}
 	
