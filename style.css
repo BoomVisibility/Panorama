@@ -375,6 +375,10 @@ ul li {
     border: 0px;
     box-shadow: 0px 0px 0px;
 }
+.date {
+    font-size: 13px;
+    margin: 10px 0;
+}
 /* Buttons */
 
 input[type="submit"].arrow-button,
