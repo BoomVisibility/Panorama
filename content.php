@@ -35,7 +35,7 @@
 						<a href="<?php the_permalink(); ?>"><h2 class="blog-title"><?php the_title();?></h2></a>
 						<div class="date"><?php the_time('F j, Y');?></div>
 							<?php the_excerpt(); ?>
-						<a class="read-more" href="<?php the_permalink(); ?>">Read more >> </a>
+						<a class="read-more" href="<?php the_permalink(); ?>">Read more &raquo; </a>
 					</div>
 					<div class="half last">
 						<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
