@@ -279,12 +279,8 @@ img.wp-smiley,
 ----------------------------------------------- */
 
 img#wpstats {
-
   display: block;
-
   margin: 0 auto 24px; }
-
-
 
 /* image gallery styles based onResponsive Lightbox by dFactory*/
 
@@ -298,8 +294,6 @@ img#wpstats {
   bottom: 0;
   left: 0; }
 
-
-
 #imagelightbox {
   position: fixed;
   z-index: 9999;
@@ -307,8 +301,6 @@ img#wpstats {
   touch-action: none;
   background: #fff;
   padding: 1px; }
-
-
 
 #imagelightbox-caption {
   position: fixed;
@@ -322,8 +314,6 @@ img#wpstats {
   line-height: 2;
   background-color: #fff; }
 
-
-
 .imagelightbox-arrow {
   width: 28px;
   height: 109px;
@@ -333,8 +323,6 @@ img#wpstats {
   border: 0;
   position: fixed; }
 
-
-
 .imagelightbox-arrow-left {
   background-image: url(../images/left-arrow.png);
   left: 10%; }
@@ -343,13 +331,47 @@ img#wpstats {
   background-image: url(../images/right-arrow.png);
   right: 10%; }
 
-
-
 .imagelightbox-arrow-left:active, .imagelightbox-arrow-left:hover, .imagelightbox-arrow-right:active, .imagelightbox-arrow-right:hover {
   background-color: transparent;
   box-shadow: none;
   background-position: 0 1px; }
 
+#imagelightbox-close {
+    cursor: pointer;
+    width: 2.5em; /* 40 */
+    height: 2.5em; /* 40 */
+    background-color: #666;
+    position: fixed;
+    z-index: 10002;
+    top: 2.5em; /* 40 */
+    right: 2.5em; /* 40 */
+    border-radius: 50%;
+    transition: color .3s ease;
+}
+
+#imagelightbox-close:hover {
+    background-color: #111;
+}
+
+#imagelightbox-close:before,
+#imagelightbox-close:after {
+    width: 2px;
+    background-color: #fff;
+    content: '';
+    position: absolute;
+    top: 20%;
+    bottom: 20%;
+    left: 50%;
+    margin-left: -1px;
+}
+
+#imagelightbox-close:before {
+    transform: rotate(45deg);
+}
+
+#imagelightbox-close:after {
+    transform: rotate(-45deg);
+}
   
   /* =Comments
 -------------------------------------------------------------- */
