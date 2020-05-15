@@ -44,7 +44,6 @@
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(wf, s);
   })(); </script>
-<script async type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js?ver=1.1'></script>
 <?php if ( is_user_logged_in() ) { ?>
 <!--the analytics code is hidden because you are logged in-->
 <script>
