@@ -16,41 +16,37 @@ get_header(); ?>
 <div id="primary">
 	<div id="content" role="main">
 		<section class="slideshow">
-			<div class="slideshow-container">
-				<ul class="bxslider">
-					<?php
-						$my_secondary_loop = new WP_Query('post_type=slides');
-						if( $my_secondary_loop->have_posts() ):
-							while( $my_secondary_loop->have_posts() ): $my_secondary_loop->the_post();
-       
-							//The secondary loop
-					?>
-					<li class="slide-list">
-						<?php 
-								if($_my_meta_value_key !== '') { ?>
-								<div class="slideshow-overlay"></div>
-							<div class="slide" style="background-image: url(<?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); echo $feat_image;  ?>);" ></div>							
-						<?php } else { ?>
-							<a href="<?php $key="_my_meta_value_key"; echo get_post_meta($post->ID, $key, true); ?>"><?php the_post_thumbnail();   ?></a>
-						<?php } ?>
-						<div class="slider-content container">
-							<div class="inner">
-								<div class="entry">
-									<h1><? echo the_title();?></h1>
-									<div class="divider"></div>
-									<? echo the_content();?>
-									<div class="textalign-center"><a class="learn-more" href="<?php the_field('slide_link'); ?>"><?php the_field('slide_button_text'); ?></a></div>
-								</div>
-							</div>
-							<div class="clear"></div>
-						</div>
-					</li>
-					<?php endwhile; ?>
-				</ul>	
-				<?php endif;
-					wp_reset_postdata();
-				?>
-			</div>
+  			<div class="slideshow-container">
+    				<div class="bxslider">
+      					<?php
+        				$i = 1;
+        				$my_secondary_loop = new WP_Query('post_type=slides');
+        				if( $my_secondary_loop->have_posts() ):
+          					while( $my_secondary_loop->have_posts() ): $my_secondary_loop->the_post(); ?>
+      						<div class="slide-list">
+        						<div class="slideshow-overlay"></div>
+        						<div class="slide" style="background-image: url(<?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); echo $feat_image;  ?>);" ></div>
+          						<div class="slider-content container">
+          							<div class="inner">
+           								<div class="entry">
+            									<?php if ($i == 1) : ?>
+              										<h1><?php echo the_title();?></h1>
+            									<?php else : ?>
+              										<h2 class="slide-title"><?php echo the_title();?></h2>
+            									<?php endif; ?>
+              									<div class="divider"></div>
+              									<?php echo the_content();?>
+              									<div class="textalign-center"><a class="learn-more" href="<?php the_field('slide_link'); ?>"><?php the_field('slide_button_text'); ?></a></div>
+            								</div>
+          							</div>
+          							<div class="clear"></div>
+        						</div>
+      						</div>
+      					<?php $i++;
+      						endwhile; ?>
+    				</div>
+    				<?php endif; wp_reset_postdata(); ?>
+  			</div>
 		</section>
 		<div class="home-buckets">
 				<div class="container">
