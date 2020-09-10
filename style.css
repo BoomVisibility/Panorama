@@ -1597,6 +1597,8 @@ body #bx-slider-pager a.active{
   padding: 0px;
 }
 
+.slider-content h1, .slider-content h2.slide-title {font-size: 45px;line-height: 1; font-weight: 300;margin: 0;}
+
 @media (min-width: 1025px) {
 .slideshow-overlay {
 	position: absolute;
@@ -1668,7 +1670,7 @@ background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0)
 }
 	
 @media (max-width: 767px) {
-section.slideshow .slider-content h1 {
+section.slideshow .slider-content h1, .slider-content h2.slide-title {
 	font-size: 7vw;
 	}
 }
